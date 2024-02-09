@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    height: 100vh;
+}
+header {
+    background-color: #5749c6;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+header h1 {
+    margin: 0;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+    background-color: #8a71fa;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 15px 0;
+    width: 25%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h2 {
+    color: #333;
+}
+p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.animated {
+    animation: slideIn 1s ease-out;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+@keyframes slideIn {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.text-container {
+    text-align: center;
+}
+.line {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+}
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+.line:nth-child(1) {
+    margin-top: 4px;
+    animation-delay: 1s;
+}
+.line:nth-child(2) {
+    margin-top: 4px;
+    animation-delay: 2s;
+}
+.line:nth-child(3) {
+    margin-top: 4px;
+    animation-delay: 3s;
+}
+
+  

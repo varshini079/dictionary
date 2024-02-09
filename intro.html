@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary </title>
+    <link rel="stylesheet" href="intro.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Dictionary</h1>
+    </header>
+    <main>
+        <h2 class="animated">What is a Dictionary?</h2>
+        <p class="animated">A dictionary is a reference book containing an alphabetical list of words, with information given for each word, usually including meaning, pronunciation, and etymology.</p>
+        <button id="nextPage">Try it now</button>
+        <div class="container">
+            <div class="text-container">
+                <div class="line">
+                <section id="about">
+                    <h2>About Us</h2>
+                    <p>Our dictionary is dedicated to providing accurate and concise definitions for a wide range of words.</p>
+                  </section>
+                </div>
+                <div class="line">
+                  <section id="services">
+                    <h2>Our Services</h2>
+                    <p>Explore our extensive database of words, meanings, and examples.</p>
+                  </section>
+                </div>
+                <div class="line">
+                  <section id="contact">
+                    <h2>Contact Us</h2>
+                    <p>If you have any questions or feedback, feel free to reach out to us.</p>
+                  </section>
+                </div>
+            </div>
+          </div>
+        
+    </main>
+    
+    <script>
+        const nextPage = document.getElementById('nextPage');
+        nextPage.addEventListener('click', () => {
+            window.location.href = 'index.html';
+        });
+    </script>
+    <footer>
+        <p>&copy; 2024 Dictionary.com</p>
+    </footer>
+</body>
+</html>
